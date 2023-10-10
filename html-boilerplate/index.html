@@ -5,11 +5,14 @@
     <head>
         <meta charset="UTF-8">
     <title>Good Fortune</title>
-    <div class="relative">
-            <a href="file:///Users/Jared/Documents/OdinProjectCode/GoodFortune-site/links-and-images/pages/index.html"> HomePage</a>
-            <p><a href="file:///Users/Jared/Documents/OdinProjectCode/GoodFortune-site/html-boilerplate/index.html">Shop</a></p>
-            <a href="file:///Users/Jared/Documents/OdinProjectCode/GoodFortune-site/links-and-images/pages/quiz.html">Quiz</a>
+    
+
+         <center>
+            <button class="button"><a href="file:///Users/Jared/Documents/OdinProjectCode/GoodFortune-site/links-and-images/pages/index.html">HomePage</a></button>
+            <button class ="button"><a href="file:///Users/Jared/Documents/OdinProjectCode/GoodFortune-site/html-boilerplate/index.html">Shop</a></button> 
+            <button class="button"><a href="file:///Users/Jared/Documents/OdinProjectCode/GoodFortune-site/links-and-images/pages/quiz.html">Quiz</a></button>
             </div>
+        </center>
             
             <style>
                 body {
@@ -19,17 +22,54 @@
                     background-position: center;
                     background-size: cover;
                 }
-                div.relative {
-            position: relative;
-            left: 10px; height:100px; Width:70px;
-            border: 2px solid #e9ece5;
-        }
+                button {
+                    transition-duration: 0.4s;
+                    display: inline-block;
+                    height: 1cm;
+                    width: 3cm;
+                    border-color: black;
+                }
+                .button:hover   {
+                    display: inline-block;
+                    background-color: lightblue;
+                    height: 1cm;
+                    width: 3cm;
+                }
+                .button1 {
+                    transition-duration: 0.4s;
+                    display: block;
+                    height: 3cm;
+                    width: 5cm;
+                    border-color: goldenrod;
+                }
+                .button1:hover {
+                    display: inline-block;
+                    background-color: goldenrod;
+                    height: 3cm;
+                    width: 5cm;
+                }
+                .button2 {
+                    transition-duration: 0.4s;
+                    display: block;
+                    height: 2cm;
+                    width: 4cm;
+                    border-color: orange;
+                }
+                .button2:hover {
+                    display: inline-block;
+                    background-color: orange;
+                    height: 2cm;
+                    width: 4cm;
+                }
             </style>
     </head>
 <!-- End head -->
 <!-- Begin body -->
     <body>
         <center>
+            <br></br>
+            <br></br>
+            <br></br>
             <br></br>
             <br></br>
             <br></br>
@@ -49,11 +89,11 @@
                     <div style="position:initial">
                     
             <!-- When click "Product #1/2" Open/pop out the Education/benefits instead of link? -->
-            <li><strong><a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer"><h1 style="color-azure">Product #1</h1></a></strong></li>
+            <li><strong><button class="button1"><a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer"><h1 style="color-azure">Product #1</h1></a></button></strong></li>
             <ol>
                     <li>Educate/benefits step</li>
                 </ol>
-            <li><strong>Product #2</strong></li>
+            <li><strong><button class="button2"><a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">Product #2</strong></li></button></a>
                 <ol>
                 <li>Educate/benefits step</li>
                 </ol>

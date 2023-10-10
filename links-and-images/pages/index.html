@@ -3,10 +3,11 @@
 <!-- Begin head -->
     <head>
    <title> Good Fortune HomePage </title>
-   <div class="relative">
-    <a href="file:///Users/Jared/Documents/OdinProjectCode/GoodFortune-site/links-and-images/pages/index.html"> HomePage</a>
-    <p><a href="file:///Users/Jared/Documents/OdinProjectCode/GoodFortune-site/html-boilerplate/index.html">Shop</a></p>
-    <a href="file:///Users/Jared/Documents/OdinProjectCode/GoodFortune-site/links-and-images/pages/quiz.html">Quiz</a>
+            <center>
+        <button class="button"><a href="file:///Users/Jared/Documents/OdinProjectCode/GoodFortune-site/links-and-images/pages/index.html"> HomePage</a></button>
+        <button class="button"><a href="file:///Users/Jared/Documents/OdinProjectCode/GoodFortune-site/html-boilerplate/index.html">Shop</a></button>
+        <button class="button"><a href="file:///Users/Jared/Documents/OdinProjectCode/GoodFortune-site/links-and-images/pages/quiz.html">Quiz</a></button>
+            </center>
     </div>
     
     <style>
@@ -17,11 +18,19 @@
                 background-position: center;
                 background-size: cover;
             }
-            div.relative {
-        position: relative;
-    left: 10px; height:100px; Width:70px;
-    border: 2px solid #e9ece5;
-}
+            button {
+                    transition-duration: 0.4s;
+                    display: inline-block;
+                    height: 1cm;
+                    width: 3cm;
+                    border-color: black;
+                }
+            .button:hover {
+                    display: inline-block;
+                    background-color: lightblue;
+                    height: 1cm;
+                    width: 3cm;
+                }
     </style>
     </head>
 <!-- End head -->
