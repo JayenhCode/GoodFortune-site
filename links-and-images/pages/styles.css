@@ -1,0 +1,39 @@
+.button {
+    transition-duration: 0.4s;
+    display: inline-block;
+    height: 1cm;
+    width: 3cm;
+    border-color: black;
+}
+.button:hover {
+    display: inline-block;
+    background-color: lightblue;
+    height: 1cm;
+    width: 3cm;
+}
+.button1 {
+    transition-duration: 0.4s;
+    display: block;
+    height: 3cm;
+    width: 5cm;
+    border-color: goldenrod;
+}
+.button1:hover {
+    display: inline-block;
+    background-color: goldenrod;
+    height: 3cm;
+    width: 5cm;
+}
+.button2 {
+    transition-duration: 0.4s;
+    display: block;
+    height: 2cm;
+    width: 4cm;
+    border-color: orange;
+}
+.button2:hover {
+    display: inline-block;
+    background-color: orange;
+    height: 2cm;
+    width: 4cm;
+}
