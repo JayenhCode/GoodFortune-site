@@ -16,8 +16,9 @@
     display: inline-block;
     height: 3cm;
     width: 5cm;
-    border-color: goldenrod;
+    border-color: gray;
     border-width: 5px;
+    border-radius:50px;
 }
 .button1:hover {
 
@@ -25,6 +26,7 @@
     height: 3cm;
     width: 5cm;
     border-width: 5px;
+    border-radius: 50px;
 
 }
 .button2 {
@@ -32,8 +34,9 @@
     display: inline-block;
     height: 3cm;
     width: 5cm;
-    border-color: orange;
+    border-color: gray;
     border-width: 5px;
+    border-radius: 50px;
 }
 .button2:hover {
     display: inline-block;
@@ -41,12 +44,12 @@
     height: 3cm;
     width: 5cm;
     border-width: 5px;
-
+    border-radius: 50px;
 }
 .productbutton {
     display:block;
-    padding:10px;
     text-align:center;
+    padding: 5px;
 }
 .middlesummary {
     padding:25px;
