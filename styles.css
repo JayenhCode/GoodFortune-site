@@ -13,14 +13,14 @@
 }
 .button1 {
     transition-duration: 0.4s;
-    display: block;
+    display: inline-block;
     height: 3cm;
     width: 5cm;
     border-color: goldenrod;
     border-width: 5px;
 }
 .button1:hover {
-    display: inline-block;
+
     background-color: goldenrod;
     height: 3cm;
     width: 5cm;
@@ -29,7 +29,7 @@
 }
 .button2 {
     transition-duration: 0.4s;
-    display: inline-block;
+    display: block;
     height: 3cm;
     width: 5cm;
     border-color: orange;
@@ -44,14 +44,35 @@
 
 }
 .leftproduct1 {
-    position: relative;
-    left: 10px; bottom: 5cm;
+    position: absolute;
+    top:0;
+    left:50px;
+    right:0;
+    bottom:0;
+    width:-50%;
+    height:30%;
+    margin: auto;
 }
 .rightproduct2 {
-    position: relative;
-    left: 1100px; bottom: 8.5cm;
+    position: absolute;
+    top:0;
+    left:900px;
+    right:0;
+    bottom:0;
+    width:1%;
+    height:30%;
+    margin: auto;
+    
 }
 .middlesummary {
-    position: relative;
-    left:510px; top:130px;
+    text-align:center;
+    margin:auto;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    width:40%;
+    height:40%;
+
 }
